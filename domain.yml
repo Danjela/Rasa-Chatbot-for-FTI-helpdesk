@@ -1,0 +1,109 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- përshëndetje
+- mirupafshim
+- pohim
+- mohim
+- bot_challenge
+- kërkesë
+- shërbimet
+- orari
+- dokumentaElektronike
+- bursa
+- kohëzgjatjaDokumentit
+- viti_studimit
+- dega
+- rregjistrimMaster
+- mbrojtaGjuhesHuaj
+- pakuptim
+entities:
+- dokument
+- gjuhaHuaj
+slots:
+  data:
+    type: unfeaturized
+  dega:
+    type: unfeaturized
+  dokument:
+    type: categorical
+    values:
+    - vertetim
+    - liste notash
+    - program studimi
+  emri:
+    type: unfeaturized
+  feedback:
+    type: unfeaturized
+  gjuhaHuaj:
+    type: unfeaturized
+  mbiemri:
+    type: unfeaturized
+  vitiStudimit:
+    type: unfeaturized
+responses:
+  utter_përshëndetje:
+  - text: Përshëndetje, unë jam asistenti virtual i sekretarisë mësimore të FTI. Si
+      mund t'ju ndihmoj?
+  utter_mirupafshim:
+  - text: Mirupafshim! Shihemi së shpejti!
+  utter_jambot:
+  - text: Unë jam asistenti virtual i sekretarisë mësimore të FTI.
+  utter_kërkesëInfo:
+  - text: Patjetër!
+  utter_shërbimet:
+  - text: "Shërbimet që unë ofroj janë:\n - FAQ mbi fakultetin,\n - Informacion të\
+      \ ndryshëm mbi oraret, dokumente te ndryshme, etj.\n - Aplikim për dokumente. "
+  utter_orari:
+  - text: Mund të na gjeni në shkollë në sallën 314 nga e hëna deri të premten në
+      orarin 12:00-16:00.
+  utter_dokumentaElektronike:
+  - text: Më vjen keq ne nuk ofrojmë ende shërbimin e marrjes së dokumentave online.
+  utter_bursa:
+  - text: 'Ju mund të merrni informacion mbi bursën në: http://www.fti.edu.al/pages/22
+      .'
+  utter_kohëzgjatjaDokumentit:
+  - text: Dokumentat vonohen 7 deri në 14 ditë për të dalë.
+  utter_rregjistrimMaster:
+  - text: "Lista e dokumentacionit për aplikim Master:\n - Diplomë e Ciklit të Parë\
+      \ dhe listë notash e njësuar me origjinalin.\n - Diplomë e Maturës Shtetërore\
+      \ së bashku me çertifikatën e notave.\n - Formulari i aplikimit.\n - Fotokopje\
+      \ e dokumentit të identifikimit.\n - Kopje të noterizuar të dëshmisë së gjuhës\
+      \ së huaj.\n - Dy fotografi personale."
+  utter_ask_emri:
+  - text: Si quheni?
+  - text: Emri juaj?
+  - text: Cili është emri juaj?
+  utter_ask_mbiemri:
+  - text: '{emri} si eshte mbiemri juaj?'
+  - text: '{emri} më duhet mbiemri juaj?'
+  - text: '{emri} mbiemri juaj?'
+  utter_ask_dega:
+  - text: '{emri} në cilin kurs studimi jeni? Ju lutem specifikoni bachelor, ms apo
+      mp.'
+  - text: '{emri} dega në të cilën jeni?'
+  utter_ask_vitiStudimit:
+  - text: '{emri} në cilin vit të studimeve jeni?'
+  - text: '{emri} më thuaj vitin e studimeve në të cilin jeni?'
+  utter_ask_feedback:
+  - text: 'Na ndihmo të përmirësohemi. Jep një koment për eksperiencën që pate duke
+      bashkëbiseduar me mua:'
+  utter_dickaTjeter:
+  - text: Mund të ndihmoj me diçka tjetër?
+  utter_kerkesauRefuzua:
+  - text: Ju kërkojmë falje ndodhi nje gabim. Provoni përsëri më vonë!
+  utter_dataDokumentit:
+  - text: Ju lutem paraqituni në zyrën e sekretarisë në datën {data} për të tërhequr
+      dokumentin.
+  utter_methuaj:
+  - text: Më thuaj :)
+  utter_default:
+  - text: Më vjen keq nuk ju kuptova. Mund ta përsërisësh edhe një herë.
+actions:
+- action_ruajTeDhenat
+- action_chitchat
+- action_mbrojtaGjuhesHuaj
+forms:
+- form_kerkese
+- form_feedback

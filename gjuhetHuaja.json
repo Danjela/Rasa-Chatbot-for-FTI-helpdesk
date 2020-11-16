@@ -1,0 +1,150 @@
+{
+    "anglisht":
+    [
+        {
+            "Cambridge":[
+                "B1: PET",
+                "B2: FCE",
+                "C1: CAE"
+            ]
+        },
+        {
+            "IELTS":
+            [
+                "B1: 4.0/5.0",
+                "B2: 5.6/6.0",
+                "C1: 6.5/7.0"
+
+            ]
+        },
+        {
+            
+            "TOELF Paper-based Test(ITP)":
+            [
+                "B1: 460",
+                "B2: 543",
+                "C1: 627"
+            ]
+        },
+        {
+            "TOELF Internet-based Test(iBT)":
+            [
+                "B1: 57/86",
+                "B2: 87/109",
+                "C1: 110/120"
+            ]
+        },
+        {
+            "TOEIC":
+            [
+                "B1: 381/649",
+                "B2: 650/785",
+                "C1: 786/935"
+            ]
+        },
+        {
+            "GESE":
+            [
+                "B1: -",
+                "B2: 7,8,9",
+                "C1: 10,11"
+            ]
+        },
+        {
+            "APTIS":
+            [
+                "B1: Aptis B1",
+                "B2: Aptis B2",
+                "C1: Aptis C1"
+            ]
+        }
+    ],
+
+    "frengjisht":
+    [
+        {
+            "TF1":
+            [
+                "B1: 345/604",
+                "B2: 605/824",
+                "C1: 825"
+            ]
+        },
+        {
+            "DELF":
+            [
+                "B1: DELFB1",
+                "B2: DELFB2",
+                "C1: DELFC1"
+            ]
+        },
+        {
+            "TCF":
+            [
+                "B1: TCF 300-399",
+                "B2: TCF 400-499",
+                "C1: TCF 500-599"
+            ]
+        },
+        {
+            "TEF":
+            [
+                "B1: TEF 361-540",
+                "B2: TEF 541-698",
+                "C1: TEF 699-833"
+            ]
+        }
+    ],
+
+    "gjermanisht":
+    [
+        {
+            "Goethe-Institut,Goethe Zentrum":
+            [
+                "B1: Goethe-Zertifikat B1",
+                "B2: Goethe-Zertifikat B2",
+                "C1: Goethe-Zertifikat C1"
+            ]
+        },
+        {
+            "TestDaF":
+            [
+                "B1: -",
+                "B2: TDN3-TD4",
+                "C1: TDN5"
+            ]
+        }
+    ],
+
+    "italisht":
+    [
+        {
+            "Peruggia":
+            [
+                "B1: CELI2 livello2",
+                "B2: CELI3 livello3",
+                "C1: CELI4 livello4"
+            ]
+        },
+        {
+            "Sienna":
+            [
+                "B1: CILS uno B1",
+                "B2: CILS 2",
+                "C1: CILS 3"
+            ]
+        }
+    ],
+
+    "spanjisht":
+    [
+        {
+            "DELE":
+            [
+                "B1: DELE inicial",
+                "B2: DELE intermedio",
+                "C1: DELE superior"
+            ]
+        }
+    ]
+}
